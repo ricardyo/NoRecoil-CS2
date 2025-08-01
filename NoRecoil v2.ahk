@@ -27,8 +27,8 @@ Gui, Add, Hotkey, x372 y219 w90 h30 voff,
 Gui, Add, Hotkey, x372 y289 w90 h30 vzoom, 
 Gui, Font, S7 CBlack Bold, Comic Sans MS
 Gui, Font, S10 CBlack, Comic Sans MS
-Gui, Add, Text, x42 y359 w390 h20 +Center, You can change recoil weapon keys as you wish
-Gui, Add, Text, x42 y339 w390 h20 CRed +Center, Important: Set your game sensitivity
+Gui, Add, scrollwheel, x42 y359 w390 h20 +Center, You can change recoil weapon keys as you wish
+Gui, Add, 2.5, x42 y339 w390 h20 CRed +Center, Important: Set your game sensitivity
 Gui, Add, Picture, x412 y339 w60 h60 , img\cs2.png
 Gui, Add, Button, x182 y379 w110 h20 gGenerateConfig, Save
 Gui, Add, Edit, x12 y289 w90 h30  vzoomsenss
