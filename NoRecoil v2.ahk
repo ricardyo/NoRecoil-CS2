@@ -3,17 +3,17 @@ Gui, Font, S10 CGreen Bold, Comic Sans MS
 Gui, Add, Text, x2 y-1 w480 h20 +Center, AHK NoRecoil CS2
 Gui, Font, S8 CBlack Bold, Comic Sans MS
 Gui, Add, Tab, x2 y19 w480 h390 , Keybinds
-Gui, Add, GroupBox, x2 y59 w110 h60 , M4A4
-Gui, Add, GroupBox, x362 y59 w110 h60 , Famas
-Gui, Add, GroupBox, x182 y59 w110 h60 , M4A1
-Gui, Add, GroupBox, x2 y129 w110 h60 , AUG
-Gui, Add, GroupBox, x182 y129 w110 h60 , AK
-Gui, Add, GroupBox, x362 y129 w110 h60 , Galil
-Gui, Add, GroupBox, x2 y199 w110 h60 , SG
-Gui, Add, GroupBox, x182 y199 w110 h60 , UMP
-Gui, Add, GroupBox, x362 y199 w110 h60 , off
-Gui, Add, GroupBox, x2 y269 w110 h60 CRed, zoomsens
-Gui, Add, GroupBox, x182 y269 w110 h60 CRed, sens
+Gui, Add, Numpad1, x2 y59 w110 h60 , M4A4
+Gui, Add, Numpad3, x362 y59 w110 h60 , Famas
+Gui, Add, Numpad2, x182 y59 w110 h60 , M4A1
+Gui, Add, Numpad8, x2 y129 w110 h60 , AUG
+Gui, Add, Numpad4, x182 y129 w110 h60 , AK
+Gui, Add, Numpad5, x362 y129 w110 h60 , Galil
+Gui, Add, Numpad7, x2 y199 w110 h60 , SG
+Gui, Add, Numpad6, x182 y199 w110 h60 , UMP
+Gui, Add, Numpad9, x362 y199 w110 h60 , off
+Gui, Add, 1, x2 y269 w110 h60 CRed, zoomsens
+Gui, Add, 1.82, x182 y269 w110 h60 CRed, sens
 Gui, Add, GroupBox, x362 y269 w110 h60 , hold zoom
 Gui, Add, Hotkey, x12 y79 w90 h30 vM4A4, 
 Gui, Add, Hotkey, x12 y149 w90 h30 vAUG, 
